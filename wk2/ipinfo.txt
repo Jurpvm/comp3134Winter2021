@@ -1,0 +1,492 @@
+Domain Name: ikea.ca
+Top Level Domain: CA (Canada)
+Domain Name: ikea.ca
+Registry Domain ID: D233758-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: www.cscglobal.com
+Updated Date: 2020-05-22T04:04:37Z
+Creation Date: 2000-10-05T15:28:01Z
+Registry Expiry Date: 2021-05-22T04:00:00Z
+Registrar: CSC Corporate Domains (Canada) Company
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 19283177-CIRA
+Registrant Name: Inter IKEA Systems B.V.
+Registrant Organization:
+Registrant Street: Olof Palmestraat 1
+Registrant City: Delft
+Registrant State/Province:
+Registrant Postal Code: NL-2616 LN
+Registrant Country: NL
+Registrant Phone: +32.23574111
+Registrant Phone Ext:
+Registrant Fax: +32.23574498
+Registrant Fax Ext:
+Registrant Email: domainadm@INTER-IKEA.COM
+Registry Admin ID: 19406354-CIRA
+Admin Name: Martin Broden
+Admin Organization:
+Admin Street: Olof Palmestraat 1
+Admin City: Delft
+Admin State/Province: LN
+Admin Postal Code: NL-2616
+Admin Country: NL
+Admin Phone: +32.23574111
+Admin Phone Ext:
+Admin Fax: +32.23574498
+Admin Fax Ext:
+Admin Email: domainadm@INTER-IKEA.COM
+Registry Tech ID: 19320279-CIRA
+Tech Name: Stephen Facciolo
+Tech Organization:
+Tech Street: 2711 Centerville Rd.
+Tech City: Wilmington
+Tech State/Province: DE
+Tech Postal Code: 19808
+Tech Country: US
+Tech Phone: +1.3026365400
+Tech Phone Ext:
+Tech Fax: +1.3026365454
+Tech Fax Ext:
+Tech Email: dns-admin@cscglobal.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: udns1.cscdns.net
+Name Server: udns2.cscdns.uk
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:22:06Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+%
+% Use of CIRA's WHOIS service is governed by the Terms of Use in its Legal
+% Notice, available at http://www.cira.ca/legal-notice/?lang=en
+%
+% (c) 2021 Canadian Internet Registration Authority, (http://www.cira.ca/)
+
+
+Domain Name: canadiantire.ca
+Top Level Domain: CA (Canada)
+Domain Name: canadiantire.ca
+Registry Domain ID: D411588-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: www.webnames.ca
+Updated Date: 2020-10-29T15:01:23Z
+Creation Date: 2000-10-11T15:00:30Z
+Registry Expiry Date: 2023-11-06T05:00:00Z
+Registrar: Webnames.ca Inc.
+Registrar IANA ID: 456
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: R158116-CIRA
+Registrant Name: Canadian Tire Corporation, Limited
+Registrant Organization:
+Registrant Street: 8550 Goreway Dr.
+Registrant City: Brampton
+Registrant State/Province: ON
+Registrant Postal Code: L6T5J8
+Registrant Country: CA
+Registrant Phone: +1.4164803000
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: dn.administration@cantire.com
+Registry Admin ID: C1136865-CIRA
+Admin Name: DNSadmin CTC
+Admin Organization: Canadian Tire Corporation, Limited
+Admin Street: 8550 Goreway Dr.
+Admin City: Brampton
+Admin State/Province: ON
+Admin Postal Code: L6T5J8
+Admin Country: CA
+Admin Phone: +1.4164803000
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: dn.administration@cantire.com
+Registry Tech ID: 74193569-CIRA
+Tech Name: DNSadmin CTC
+Tech Organization: Canadian Tire Corporation, Limited
+Tech Street: 8550 Goreway Dr.
+Tech City: Brampton
+Tech State/Province: ON
+Tech Postal Code: L6T5J8
+Tech Country: CA
+Tech Phone: +1.4164803000
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email: dn.administration@cantire.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: ns1.cantire.com
+Name Server: ns2.cantire.com
+Name Server: ns3.cantire.com
+Name Server: ns4.cantire.com
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:21:48Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+%
+% Use of CIRA's WHOIS service is governed by the Terms of Use in its Legal
+% Notice, available at http://www.cira.ca/legal-notice/?lang=en
+%
+% (c) 2021 Canadian Internet Registration Authority, (http://www.cira.ca/)
+
+
+Domain Name: walmart.ca
+Top Level Domain: CA (Canada)
+Domain Name: walmart.ca
+Registry Domain ID: D117917-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: Markmonitor.com
+Updated Date: 2020-10-30T09:42:13Z
+Creation Date: 2000-11-08T19:51:24Z
+Registry Expiry Date: 2022-12-01T05:00:00Z
+Registrar: MarkMonitor International Canada Ltd.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 24086951-CIRA
+Registrant Name: Wal-Mart Canada Corp
+Registrant Organization:
+Registrant Street: 1940 Argentia Road
+Registrant City: Mississauga
+Registrant State/Province: ON
+Registrant Postal Code: L5N1P9
+Registrant Country: CA
+Registrant Phone: +1.9058212111
+Registrant Phone Ext:
+Registrant Fax: +1.9058216353
+Registrant Fax Ext:
+Registrant Email: netnames@wal-mart.com
+Registry Admin ID: 24086965-CIRA
+Admin Name: Kelly-Anne Kenny
+Admin Organization: Wal-Mart Canada Corp
+Admin Street: 1940 Argentia Road
+Admin City: Mississauga
+Admin State/Province: ON
+Admin Postal Code: L5N1P9
+Admin Country: CA
+Admin Phone: +1.9058212111
+Admin Phone Ext:
+Admin Fax: +1.9058216353
+Admin Fax Ext:
+Admin Email: netnames@wal-mart.com
+Registry Tech ID: 24086965-CIRA
+Tech Name: Kelly-Anne Kenny
+Tech Organization: Wal-Mart Canada Corp
+Tech Street: 1940 Argentia Road
+Tech City: Mississauga
+Tech State/Province: ON
+Tech Postal Code: L5N1P9
+Tech Country: CA
+Tech Phone: +1.9058212111
+Tech Phone Ext:
+Tech Fax: +1.9058216353
+Tech Fax Ext:
+Tech Email: netnames@wal-mart.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: eur2.akam.net
+Name Server: eur3.akam.net
+Name Server: eur6.akam.net
+Name Server: ns1-137.akam.net
+Name Server: ns1-189.akam.net
+Name Server: ns10.wal-mart.com
+Name Server: ns8.wal-mart.com
+Name Server: ns9.wal-mart.com
+Name Server: usc5.akam.net
+Name Server: use3.akam.net
+Name Server: use4.akam.net
+Name Server: use9.akam.net
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:21:24Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+%
+% Use of CIRA's WHOIS service is governed by the Terms of Use in its Legal
+% Notice, available at http://www.cira.ca/legal-notice/?lang=en
+%
+% (c) 2021 Canadian Internet Registration Authority, (http://www.cira.ca/)
+
+Domain Name: georgebrown.ca
+Top Level Domain: CA (Canada)
+Domain Name: georgebrown.ca
+Registry Domain ID: D121739-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: www.webnames.ca
+Updated Date: 2021-01-23T16:05:03Z
+Creation Date: 2002-07-04T08:35:23Z
+Registry Expiry Date: 2021-07-04T04:00:00Z
+Registrar: Webnames.ca Inc.
+Registrar IANA ID: 456
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: R21312-CIRA
+Registrant Name: George Brown College (Toronto)
+Registrant Organization:
+Registrant Street: P.O. Box 1015 Station B
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M5T2T9
+Registrant Country: CA
+Registrant Phone: +1.4164155000
+Registrant Phone Ext: 5012
+Registrant Fax: +1.4164154667
+Registrant Fax Ext:
+Registrant Email: ariem@georgebrown.ca
+Registry Admin ID: C883431-CIRA
+Admin Name: Andrew Riem
+Admin Organization: George Brown College
+Admin Street: P.O. Box 1015 Station B
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M5T2T9
+Admin Country: CA
+Admin Phone: +1.4164155000
+Admin Phone Ext: 5012
+Admin Fax: +1.4164154667
+Admin Fax Ext:
+Admin Email: ariem@georgebrown.ca
+Registry Tech ID: C883432-CIRA
+Tech Name: Dorin Grunberg
+Tech Organization: George Brown College
+Tech Street: P.O. Box 1015 Station B
+Tech City: Toronto
+Tech State/Province: ON
+Tech Postal Code: M5T2T9
+Tech Country: CA
+Tech Phone: +1.4164155000
+Tech Phone Ext: 4935
+Tech Fax: +1.4164154836
+Tech Fax Ext:
+Tech Email: dgrunberg@georgebrown.ca
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: ns1.d-zone.ca
+Name Server: ns1.georgebrown.ca
+Name Server: ns2.d-zone.ca
+Name Server: ns2.georgebrown.ca
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:20:27Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+%
+% Use of CIRA's WHOIS service is governed by the Terms of Use in its Legal
+% Notice, available at http://www.cira.ca/legal-notice/?lang=en
+%
+% (c) 2021 Canadian Internet Registration Authority, (http://www.cira.ca/)
+
+Domain Name: houndsofyork.ca
+Top Level Domain: CA (Canada)
+Domain Name: houndsofyork.ca
+Registry Domain ID: 36552285-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: promopeople.com
+Updated Date: 2017-01-14T12:58:41Z
+Creation Date: 2017-01-09T12:54:50Z
+Registry Expiry Date: 2022-01-09T12:54:50Z
+Registrar: Promo People Inc.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 36552282-CIRA
+Registrant Name: 2544714 Ontario Limited
+Registrant Organization:
+Registrant Street: 21 Pirandello St, Unit 1243
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M6K3P4
+Registrant Country: CA
+Registrant Phone: +1.4168434254
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: sherry.garcia.dr@gmail.com
+Registry Admin ID: 36552391-CIRA
+Admin Name: Sherry Garcia
+Admin Organization: 2544714 Ontario Limited
+Admin Street: 21 Pirandello St, Unit 1243
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M6K3P4
+Admin Country: CA
+Admin Phone: +1.4168434254
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: sherry.garcia.dr@gmail.com
+Registry Tech ID: 36552284-CIRA
+Tech Name: Host Master Hostpapa ca
+Tech Organization: HostPapa
+Tech Street: 115 George St., Suite 511
+Tech City: Oakville
+Tech State/Province: ON
+Tech Postal Code: L6J0A2
+Tech Country: CA
+Tech Phone: +1.9053153455
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email: domains@hostpapasupport.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: ns1.hostpapa.com
+Name Server: ns2.hostpapa.com
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:16:25Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+%
+% Use of CIRA's WHOIS service is governed by the Terms of Use in its Legal
+% Notice, available at http://www.cira.ca/legal-notice/?lang=en
+%
+% (c) 2021 Canadian Internet Registration Authority, (http://www.cira.ca/)
+
+Domain Name: houndsofyork.ca
+Registry Domain ID: 36552285-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: promopeople.com
+Updated Date: 2017-01-14T12:58:41Z
+Creation Date: 2017-01-09T12:54:50Z
+Registry Expiry Date: 2022-01-09T12:54:50Z
+Registrar: Promo People Inc.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 36552282-CIRA
+Registrant Name: 2544714 Ontario Limited
+Registrant Organization:
+Registrant Street: 21 Pirandello St, Unit 1243
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M6K3P4
+Registrant Country: CA
+Registrant Phone: +1.4168434254
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: sherry.garcia.dr@gmail.com
+Registry Admin ID: 36552391-CIRA
+Admin Name: Sherry Garcia
+Admin Organization: 2544714 Ontario Limited
+Admin Street: 21 Pirandello St, Unit 1243
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M6K3P4
+Admin Country: CA
+Admin Phone: +1.4168434254
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: sherry.garcia.dr@gmail.com
+Registry Tech ID: 36552284-CIRA
+Tech Name: Host Master Hostpapa ca
+Tech Organization: HostPapa
+Tech Street: 115 George St., Suite 511
+Tech City: Oakville
+Tech State/Province: ON
+Tech Postal Code: L6J0A2
+Tech Country: CA
+Tech Phone: +1.9053153455
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email: domains@hostpapasupport.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: ns1.hostpapa.com
+Name Server: ns2.hostpapa.com
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2021-01-24T22:16:25Z <<<

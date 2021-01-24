@@ -1,0 +1,25 @@
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping google.ca
+PING google.ca (172.217.1.163) 56(84) bytes of data.
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=1 ttl=121 time=1.42 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=2 ttl=121 time=0.569 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=3 ttl=121 time=0.523 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=4 ttl=121 time=0.530 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=5 ttl=121 time=0.539 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=6 ttl=121 time=0.624 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=7 ttl=121 time=0.588 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=8 ttl=121 time=0.569 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=9 ttl=121 time=0.534 ms
+^C
+--- google.ca ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8147ms
+rtt min/avg/max/mdev = 0.523/0.655/1.420/0.272 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping google.ca -w 2
+PING google.ca (172.217.1.163) 56(84) bytes of data.
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=1 ttl=121 time=1.23 ms
+64 bytes from yyz10s04-in-f3.1e100.net (172.217.1.163): icmp_seq=2 ttl=121 time=0.612 ms
+
+--- google.ca ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.612/0.919/1.227/0.307 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,49 @@
+Nmap done: 1 IP address (1 host up) scanned in 15.67 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 google.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 22:43 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.0015s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:809::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.13 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80-500 google.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 22:45 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.0013s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:809::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+Not shown: 419 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 14.08 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 0-1000 google.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 22:46 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.0013s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:809::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.99 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F google.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 22:46 UTC
+Nmap scan report for google.ca (172.217.1.163)
+Host is up (0.0013s latency).
+Other addresses for google.ca (not scanned): 2607:f8b0:400b:809::2003
+rDNS record for 172.217.1.163: yyz10s04-in-f3.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.93 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

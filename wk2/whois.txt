@@ -1,0 +1,78 @@
+roywoods.ca
+Registrar Info
+NameGo Daddy Domains Canada, Inc
+Whois Serverwhois.ca.fury.ca
+Referral URLca.godaddy.com
+StatusclientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2024-09-24
+Registered On2014-09-24
+Updated On2019-09-25
+Name Servers
+ns73.domaincontrol.com97.74.106.47
+ns74.domaincontrol.com173.201.74.47
+
+https://www.iamcafe.com/
+Registrar Info
+NameGoDaddy.com, LLC
+Whois Serverwhois.godaddy.com
+Referral URLhttp://www.godaddy.com
+StatusclientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited
+clientRenewProhibited http://www.icann.org/epp#clientRenewProhibited
+clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2021-11-14
+Registered On2012-11-14
+Updated On2018-10-16
+
+https://weleafcanada.com/
+Registrar Info
+NameGoDaddy.com, LLC
+Whois Serverwhois.godaddy.com
+Referral URLhttp://www.godaddy.com
+StatusclientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited
+clientRenewProhibited http://www.icann.org/epp#clientRenewProhibited
+clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2021-09-04
+Registered On2018-09-04
+Updated On2019-01-03
+
+https://stacktmarket.com/
+Registrar Info
+NameGoDaddy.com, LLC
+Whois Serverwhois.godaddy.com
+Referral URLhttp://www.godaddy.com
+StatusclientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited
+clientRenewProhibited http://www.icann.org/epp#clientRenewProhibited
+clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2022-08-08
+Registered On2016-08-08
+Updated On2020-08-09
+Name Servers
+NS-1461.AWSDNS-54.ORG205.251.197.181
+NS-1926.AWSDNS-48.CO.UK205.251.199.134
+NS-59.AWSDNS-07.COM205.251.192.59
+NS-959.AWSDNS-55.NET205.251.195.191
+
+https://wvrst.com/
+Registrar Info
+NameTUCOWS, INC.
+Whois Serverwhois.tucows.com
+Referral URLhttp://tucowsdomains.com
+StatusclientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2023-03-11
+Registered On2011-03-11
+Updated On2018-03-07
+Name Servers
+ns1.netfirms.com65.254.254.157
+ns2.netfirms.com66.96.142.145

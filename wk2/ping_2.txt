@@ -1,0 +1,13 @@
+$ ping 143.110.214.120
+
+Pinging 143.110.214.120 with 32 bytes of data:
+Reply from 143.110.214.120: bytes=32 time=4ms TTL=57
+Reply from 143.110.214.120: bytes=32 time=2ms TTL=57
+Reply from 143.110.214.120: bytes=32 time=3ms TTL=57
+Reply from 143.110.214.120: bytes=32 time=3ms TTL=57
+
+Ping statistics for 143.110.214.120:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 4ms, Average = 3ms
+
