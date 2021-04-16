@@ -1,0 +1,46 @@
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~# tcmpdump -XX -i eth0
+
+Command 'tcmpdump' not found, did you mean:
+
+  command 'tcpdump' from snap tcpdump (4.9.3-4+snap1)
+  command 'tcpdump' from deb tcpdump (4.9.3-4)
+
+See 'snap info <snapname>' for additional versions.
+
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,255 @@
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~# root@ubuntu-s-1vcpu-1gb-nyc1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:11:19.217669 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 4115845201:4115845309, ack 2999372226, win 501, length 108
+00:11:19.217713 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 108:144, ack 1, win 501, length 36
+00:11:19.217745 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 144:252, ack 1, win 501, length 108
+00:11:19.217772 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 252:288, ack 1, win 501, length 36
+00:11:19.218244 IP ubuntu-s-1vcpu-1gb-nyc1-01.55001 > 67.207.67.3.domain: 60840+ [1au] PTR? 10.116.166.69.in-addr.arpa. (55)
+00:11:19.218294 IP ubuntu-s-1vcpu-1gb-nyc1-01.44158 > 67.207.67.3.domain: 24308+ [1au] PTR? 10.116.166.69.in-addr.arpa. (55)
+00:11:19.219005 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.55001: 60840 NXDomain 0/1/1 (110)
+00:11:19.219075 IP ubuntu-s-1vcpu-1gb-nyc1-01.55001 > 67.207.67.3.domain: 60840+ PTR? 10.116.166.69.in-addr.arpa. (44)
+00:11:19.219089 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.44158: 24308 NXDomain 0/1/1 (110)
+00:11:19.219129 IP ubuntu-s-1vcpu-1gb-nyc1-01.44158 > 67.207.67.3.domain: 24308+ PTR? 10.116.166.69.in-addr.arpa. (44)
+00:11:19.219229 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.55001: 60840 NXDomain 0/1/0 (99)
+00:11:19.219291 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.44158: 24308 NXDomain 0/1/0 (99)
+00:11:19.220036 IP ubuntu-s-1vcpu-1gb-nyc1-01.55813 > 67.207.67.3.domain: 38684+ [1au] PTR? 200.184.205.67.in-addr.arpa. (56)
+00:11:19.220095 IP ubuntu-s-1vcpu-1gb-nyc1-01.49956 > 67.207.67.3.domain: 6350+ [1au] PTR? 200.184.205.67.in-addr.arpa. (56)
+00:11:19.220240 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.55813: 38684 NXDomain 0/1/1 (123)
+00:11:19.220280 IP ubuntu-s-1vcpu-1gb-nyc1-01.55813 > 67.207.67.3.domain: 38684+ PTR? 200.184.205.67.in-addr.arpa. (45)
+00:11:19.220303 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.49956: 6350 NXDomain 0/1/1 (123)
+00:11:19.220470 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.55813: 38684 NXDomain 0/1/0 (112)
+00:11:19.220499 IP ubuntu-s-1vcpu-1gb-nyc1-01.49956 > 67.207.67.3.domain: 6350+ PTR? 200.184.205.67.in-addr.arpa. (45)
+00:11:19.220680 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.49956: 6350 NXDomain 0/1/0 (112)
+00:11:19.220948 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 288:468, ack 1, win 501, length 180
+00:11:19.220993 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 468:504, ack 1, win 501, length 36
+00:11:19.221053 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 504:660, ack 1, win 501, length 156
+00:11:19.221077 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 660:696, ack 1, win 501, length 36
+00:11:19.221110 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 696:860, ack 1, win 501, length 164
+00:11:19.221342 IP ubuntu-s-1vcpu-1gb-nyc1-01.47777 > 67.207.67.3.domain: 64310+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+00:11:19.221392 IP ubuntu-s-1vcpu-1gb-nyc1-01.43734 > 67.207.67.3.domain: 60521+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+00:11:19.221513 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.47777: 64310 NXDomain 0/1/1 (120)
+00:11:19.221612 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.43734: 60521 NXDomain 0/1/1 (120)
+00:11:19.221716 IP ubuntu-s-1vcpu-1gb-nyc1-01.47777 > 67.207.67.3.domain: 64310+ PTR? 3.67.207.67.in-addr.arpa. (42)
+00:11:19.221877 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.47777: 64310 NXDomain 0/1/0 (109)
+00:11:19.221888 IP ubuntu-s-1vcpu-1gb-nyc1-01.43734 > 67.207.67.3.domain: 60521+ PTR? 3.67.207.67.in-addr.arpa. (42)
+00:11:19.222094 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-nyc1-01.43734: 60521 NXDomain 0/1/0 (109)
+00:11:19.230927 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 252, win 508, length 0
+00:11:19.230975 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 860:3780, ack 1, win 501, length 2920
+00:11:19.230989 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 3780:6520, ack 1, win 501, length 2740
+00:11:19.231090 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 6520:6668, ack 1, win 501, length 148
+00:11:19.231124 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 6668:6704, ack 1, win 501, length 36
+00:11:19.231159 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 6704:6868, ack 1, win 501, length 164
+00:11:19.231186 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 6868:6904, ack 1, win 501, length 36
+00:11:19.233939 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 860, win 513, length 0
+00:11:19.233963 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 6904:7904, ack 1, win 501, length 1000
+00:11:19.234058 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 7904:8052, ack 1, win 501, length 148
+00:11:19.234091 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8052:8088, ack 1, win 501, length 36
+00:11:19.234126 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8088:8252, ack 1, win 501, length 164
+00:11:19.234152 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8252:8288, ack 1, win 501, length 36
+00:11:19.234185 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8288:8452, ack 1, win 501, length 164
+00:11:19.234211 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8452:8488, ack 1, win 501, length 36
+00:11:19.234242 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8488:8652, ack 1, win 501, length 164
+00:11:19.234267 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8652:8688, ack 1, win 501, length 36
+00:11:19.234301 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8688:8852, ack 1, win 501, length 164
+00:11:19.234326 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8852:8888, ack 1, win 501, length 36
+00:11:19.234357 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 8888:9052, ack 1, win 501, length 164
+00:11:19.247996 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 5240, win 513, length 0
+00:11:19.248034 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 9052:10488, ack 1, win 501, length 1436
+00:11:19.248165 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 10488:10636, ack 1, win 501, length 148
+00:11:19.248198 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 10636:10672, ack 1, win 501, length 36
+00:11:19.248233 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 10672:10836, ack 1, win 501, length 164
+00:11:19.248258 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 10836:10872, ack 1, win 501, length 36
+00:11:19.248290 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 10872:11036, ack 1, win 501, length 164
+00:11:19.250184 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 9052, win 513, length 0
+00:11:19.250206 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 11036:11872, ack 1, win 501, length 836
+00:11:19.250273 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 11872:12020, ack 1, win 501, length 148
+00:11:19.250306 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12020:12056, ack 1, win 501, length 36
+00:11:19.250343 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12056:12220, ack 1, win 501, length 164
+00:11:19.250377 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12220:12256, ack 1, win 501, length 36
+00:11:19.250414 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12256:12420, ack 1, win 501, length 164
+00:11:19.250443 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12420:12456, ack 1, win 501, length 36
+00:11:19.250487 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12456:12620, ack 1, win 501, length 164
+00:11:19.250518 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12620:12656, ack 1, win 501, length 36
+00:11:19.250554 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12656:12820, ack 1, win 501, length 164
+00:11:19.250585 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12820:12856, ack 1, win 501, length 36
+00:11:19.250621 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 12856:13020, ack 1, win 501, length 164
+00:11:19.250666 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13020:13056, ack 1, win 501, length 36
+00:11:19.250712 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13056:13220, ack 1, win 501, length 164
+00:11:19.250748 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13220:13256, ack 1, win 501, length 36
+00:11:19.250786 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13256:13420, ack 1, win 501, length 164
+00:11:19.250818 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13420:13456, ack 1, win 501, length 36
+00:11:19.250853 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13456:13620, ack 1, win 501, length 164
+00:11:19.250883 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13620:13656, ack 1, win 501, length 36
+00:11:19.261268 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 11036, win 513, length 0
+00:11:19.261306 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 13656:15856, ack 1, win 501, length 2200
+00:11:19.261448 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 15856:16004, ack 1, win 501, length 148
+00:11:19.261496 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 16004:16040, ack 1, win 501, length 36
+00:11:19.261536 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 16040:16204, ack 1, win 501, length 164
+00:11:19.261567 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 16204:16240, ack 1, win 501, length 36
+00:11:19.265698 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 13656, win 513, length 0
+00:11:19.265732 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 16240:17040, ack 1, win 501, length 800
+00:11:19.265837 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17040:17188, ack 1, win 501, length 148
+00:11:19.265872 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17188:17224, ack 1, win 501, length 36
+00:11:19.265906 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17224:17388, ack 1, win 501, length 164
+00:11:19.265933 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17388:17424, ack 1, win 501, length 36
+00:11:19.265972 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17424:17588, ack 1, win 501, length 164
+00:11:19.265998 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17588:17624, ack 1, win 501, length 36
+00:11:19.266039 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17624:17788, ack 1, win 501, length 164
+00:11:19.266064 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17788:17824, ack 1, win 501, length 36
+00:11:19.266095 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17824:17988, ack 1, win 501, length 164
+00:11:19.266120 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17988:18024, ack 1, win 501, length 36
+00:11:19.266151 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18024:18188, ack 1, win 501, length 164
+00:11:19.266195 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18188:18224, ack 1, win 501, length 36
+00:11:19.266226 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18224:18388, ack 1, win 501, length 164
+00:11:19.266253 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18388:18424, ack 1, win 501, length 36
+00:11:19.266295 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18424:18588, ack 1, win 501, length 164
+00:11:19.266321 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18588:18624, ack 1, win 501, length 36
+00:11:19.266352 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18624:18788, ack 1, win 501, length 164
+00:11:19.266378 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18788:18824, ack 1, win 501, length 36
+00:11:19.266410 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18824:18988, ack 1, win 501, length 164
+00:11:19.323826 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 15116, win 513, length 0
+00:11:19.323881 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [.], seq 18988:20448, ack 1, win 501, length 1460
+00:11:19.324762 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 1 {17188:17224}], length 0
+00:11:19.324791 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 20448:21608, ack 1, win 501, length 1160
+00:11:19.324813 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 2 {17388:17424}{17188:17224}], length 0
+00:11:19.324813 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 3 {17588:17624}{17388:17424}{17188:17224}], length 0
+00:11:19.324813 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {17788:17824}{17588:17624}{17388:17424}{17188:17224}], length 0
+00:11:19.324826 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 16240:17188, ack 1, win 501, length 948
+00:11:19.324837 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17224:17388, ack 1, win 501, length 164
+00:11:19.324845 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {17988:18024}{17788:17824}{17588:17624}{17388:17424}], length 0
+00:11:19.324849 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17424:17588, ack 1, win 501, length 164
+00:11:19.324874 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18188:18224}{17988:18024}{17788:17824}{17588:17624}], length 0
+00:11:19.324874 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18388:18424}{18188:18224}{17988:18024}{17788:17824}], length 0
+00:11:19.324874 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18588:18624}{18388:18424}{18188:18224}{17988:18024}], length 0
+00:11:19.324874 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18788:18824}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.324879 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17624:17788, ack 1, win 501, length 164
+00:11:19.324885 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 17824:17988, ack 1, win 501, length 164
+00:11:19.324892 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18024:18188, ack 1, win 501, length 164
+00:11:19.324899 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18224:18388, ack 1, win 501, length 164
+00:11:19.326500 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18788:18988}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.326509 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18424:18588, ack 1, win 501, length 164
+00:11:19.337140 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18788:20448}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.337172 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 18624:18788, ack 1, win 501, length 164
+00:11:19.340442 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 16240, win 508, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340442 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 17224, win 513, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340442 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 17424, win 512, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340442 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 17624, win 511, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340482 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [.], seq 21608:23068, ack 1, win 501, length 1460
+00:11:19.340495 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 23068:25988, ack 1, win 501, length 2920
+00:11:19.340520 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 17824, win 510, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340520 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 18024, win 510, options [nop,nop,sack 4 {18788:21608}{18588:18624}{18388:18424}{18188:18224}], length 0
+00:11:19.340520 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 18224, win 509, options [nop,nop,sack 3 {18788:21608}{18588:18624}{18388:18424}], length 0
+00:11:19.340520 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 18424, win 508, options [nop,nop,sack 2 {18788:21608}{18588:18624}], length 0
+00:11:19.340520 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 18624, win 507, options [nop,nop,sack 1 {18788:21608}], length 0
+00:11:19.340530 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 25988:26432, ack 1, win 501, length 444
+00:11:19.340614 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 26432:26660, ack 1, win 501, length 228
+00:11:19.340645 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 26660:26696, ack 1, win 501, length 36
+00:11:19.340680 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 26696:26924, ack 1, win 501, length 228
+00:11:19.340704 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 26924:26960, ack 1, win 501, length 36
+00:11:19.340738 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 26960:27188, ack 1, win 501, length 228
+00:11:19.340763 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 27188:27224, ack 1, win 501, length 36
+00:11:19.350550 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 21608, win 513, length 0
+00:11:19.350593 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 27224:30144, ack 1, win 501, length 2920
+00:11:19.350628 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30144:30528, ack 1, win 501, length 384
+00:11:19.350744 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30528:30676, ack 1, win 501, length 148
+00:11:19.350779 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30676:30712, ack 1, win 501, length 36
+00:11:19.350815 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30712:30876, ack 1, win 501, length 164
+00:11:19.350842 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30876:30912, ack 1, win 501, length 36
+00:11:19.350875 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 30912:31076, ack 1, win 501, length 164
+00:11:19.354759 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 23068, win 513, length 0
+00:11:19.354791 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 31076:32112, ack 1, win 501, length 1036
+00:11:19.355555 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 27188, win 513, length 0
+00:11:19.355573 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32112:32496, ack 1, win 501, length 384
+00:11:19.355653 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32496:32644, ack 1, win 501, length 148
+00:11:19.355698 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32644:32680, ack 1, win 501, length 36
+00:11:19.355754 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32680:32844, ack 1, win 501, length 164
+00:11:19.355786 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32844:32880, ack 1, win 501, length 36
+00:11:19.355822 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 32880:33044, ack 1, win 501, length 164
+00:11:19.355869 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 33044:33080, ack 1, win 501, length 36
+00:11:19.355908 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 33080:33244, ack 1, win 501, length 164
+00:11:19.356966 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [P.], seq 1:37, ack 27188, win 513, length 36
+00:11:19.371985 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 31076, win 513, length 0
+00:11:19.371985 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 32112, win 509, length 0
+00:11:19.371985 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 33244, win 513, length 0
+00:11:19.372032 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 33244:34480, ack 37, win 501, length 1236
+00:11:19.372164 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34480:34628, ack 37, win 501, length 148
+00:11:19.372195 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34628:34664, ack 37, win 501, length 36
+00:11:19.372230 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34664:34812, ack 37, win 501, length 148
+00:11:19.372255 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34812:34848, ack 37, win 501, length 36
+00:11:19.372287 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34848:34996, ack 37, win 501, length 148
+00:11:19.372328 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 34996:35032, ack 37, win 501, length 36
+00:11:19.372365 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35032:35196, ack 37, win 501, length 164
+00:11:19.372393 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35196:35232, ack 37, win 501, length 36
+00:11:19.372425 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35232:35396, ack 37, win 501, length 164
+00:11:19.372452 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35396:35432, ack 37, win 501, length 36
+00:11:19.372484 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35432:35596, ack 37, win 501, length 164
+00:11:19.372510 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35596:35632, ack 37, win 501, length 36
+00:11:19.372541 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35632:35796, ack 37, win 501, length 164
+00:11:19.372566 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35796:35832, ack 37, win 501, length 36
+00:11:19.372598 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35832:35996, ack 37, win 501, length 164
+00:11:19.372623 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 35996:36032, ack 37, win 501, length 36
+00:11:19.372654 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 36032:36196, ack 37, win 501, length 164
+00:11:19.372679 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 36196:36232, ack 37, win 501, length 36
+00:11:19.386395 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 34628, win 507, length 0
+00:11:19.386396 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 36196, win 513, length 0
+00:11:19.386446 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 36232:38832, ack 37, win 501, length 2600
+00:11:19.386612 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 38832:38980, ack 37, win 501, length 148
+00:11:19.386675 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 38980:39016, ack 37, win 501, length 36
+00:11:19.386717 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39016:39164, ack 37, win 501, length 148
+00:11:19.386743 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39164:39200, ack 37, win 501, length 36
+00:11:19.386776 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39200:39364, ack 37, win 501, length 164
+00:11:19.386801 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39364:39400, ack 37, win 501, length 36
+00:11:19.386833 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39400:39564, ack 37, win 501, length 164
+00:11:19.386858 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39564:39600, ack 37, win 501, length 36
+00:11:19.386890 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39600:39764, ack 37, win 501, length 164
+00:11:19.386914 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39764:39800, ack 37, win 501, length 36
+00:11:19.386946 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39800:39964, ack 37, win 501, length 164
+00:11:19.386970 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 39964:40000, ack 37, win 501, length 36
+00:11:19.387007 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 40000:40164, ack 37, win 501, length 164
+00:11:19.387033 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 40164:40200, ack 37, win 501, length 36
+00:11:19.387063 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 40200:40364, ack 37, win 501, length 164
+00:11:19.387089 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 40364:40400, ack 37, win 501, length 36
+00:11:19.400213 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 40200, win 513, length 0
+00:11:19.400257 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 40400:42600, ack 37, win 501, length 2200
+00:11:19.400380 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 42600:42748, ack 37, win 501, length 148
+00:11:19.400414 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 42748:42784, ack 37, win 501, length 36
+00:11:19.400450 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 42784:42948, ack 37, win 501, length 164
+00:11:19.400477 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 42948:42984, ack 37, win 501, length 36
+00:11:19.400509 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 42984:43148, ack 37, win 501, length 164
+00:11:19.400534 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43148:43184, ack 37, win 501, length 36
+00:11:19.400566 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43184:43348, ack 37, win 501, length 164
+00:11:19.400592 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43348:43384, ack 37, win 501, length 36
+00:11:19.400624 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43384:43548, ack 37, win 501, length 164
+00:11:19.400648 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43548:43584, ack 37, win 501, length 36
+00:11:19.400680 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43584:43748, ack 37, win 501, length 164
+00:11:19.400705 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43748:43784, ack 37, win 501, length 36
+00:11:19.400736 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43784:43948, ack 37, win 501, length 164
+00:11:19.400761 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43948:43984, ack 37, win 501, length 36
+00:11:19.400792 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 43984:44148, ack 37, win 501, length 164
+00:11:19.400884 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 40364, win 512, length 0
+00:11:19.400890 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 44148:44584, ack 37, win 501, length 436
+00:11:19.414652 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 41860, win 513, length 0
+00:11:19.414653 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [.], ack 44584, win 513, length 0
+00:11:19.414692 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 44584:46368, ack 37, win 501, length 1784
+00:11:19.414827 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46368:46516, ack 37, win 501, length 148
+00:11:19.414861 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46516:46552, ack 37, win 501, length 36
+00:11:19.414896 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46552:46700, ack 37, win 501, length 148
+00:11:19.414923 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46700:46736, ack 37, win 501, length 36
+00:11:19.414956 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46736:46900, ack 37, win 501, length 164
+00:11:19.414981 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46900:46936, ack 37, win 501, length 36
+00:11:19.415013 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 46936:47100, ack 37, win 501, length 164
+00:11:19.415040 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47100:47136, ack 37, win 501, length 36
+00:11:19.415072 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47136:47300, ack 37, win 501, length 164
+00:11:19.415096 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47300:47336, ack 37, win 501, length 36
+00:11:19.415128 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47336:47500, ack 37, win 501, length 164
+00:11:19.415154 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47500:47536, ack 37, win 501, length 36
+00:11:19.415185 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47536:47700, ack 37, win 501, length 164
+00:11:19.415210 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47700:47736, ack 37, win 501, length 36
+00:11:19.415241 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47736:47900, ack 37, win 501, length 164
+00:11:19.415275 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 47900:48064, ack 37, win 501, length 164
+00:11:19.415335 IP ubuntu-s-1vcpu-1gb-nyc1-01.ssh > 69.166.116.10.5276: Flags [P.], seq 48064:48620, ack 37, win 501, length 556
+00:11:19.469614 IP 69.166.116.10.5276 > ubuntu-s-1vcpu-1gb-nyc1-01.ssh: Flags [P.], seq 37:73, ack 44584, win 513, length 36^C
+249 packets captured
+268 packets received by filter
+0 packets dropped by kernel
